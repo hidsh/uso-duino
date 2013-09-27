@@ -1,4 +1,4 @@
-USO-duino - a tiny Arduino clone
+Uso-duino - a tiny Arduino clone
 ===============
 
 ![photo](doc/photo.jpg)
@@ -52,7 +52,7 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
 
 # How to write firmware
 
-1. Push 'UPLOAD' button on IDE with pressing 'RESET' on Arduino
+1. Push 'UPLOAD' button on IDE with pressing 'RESET' on うそ-duino
 2. Release 'RESET' button
 3. New firmware is started running when you get message 'Done uploading.' on IDE
 
