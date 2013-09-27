@@ -4,24 +4,24 @@ Uso-duino - a tiny Arduino clone
 ![photo](doc/photo.jpg)
 ![schematic](doc/uso_sch.jpg)
 
-# features
+## features
 
 - device: ATMEGA168
 - internal osc 8MHz (no xtal / ceramic resonator)
 - modified bootloader
 
-# fuses
+## fuses
 
     low:     0xf8
     high:    0xdd
     extended:0xe2
 
-# bootloader
+## bootloader
 
 write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-programmer or avr-dragon.
 
 
-# board setting
+## board setting
 
 open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add following lines
 
@@ -44,18 +44,18 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
     diecimila.build.f_cpu=8000000L
     diecimila.build.core=arduino
 
-# IDE setting
+## IDE setting
 
 - Tools / board: Arduino Diecimila, Duemilanove, or Nano w/ ATmega168 8MHz
 - Tools / Serial Port: /dev/tty.usbserial-XXX
 - Tools / Programmer: AVRISP mkII
 
-# How to write firmware
+## How to write firmware
 
 1. Push 'UPLOAD' button on IDE with pressing 'RESET' on うそ-duino
 2. Release 'RESET' button
 3. New firmware is started running when you get message 'Done uploading.' on IDE
 
-# Thanks to
+## Thanks to
 
 - http://ikuyama.net/ryo/namalog3/2011/10/05/arduino-8mh/
