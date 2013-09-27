@@ -6,7 +6,7 @@ USO-duino - a tiny Arduino clone
 
 # features
 
-- device: ATMEGA168P
+- device: ATMEGA168
 - internal osc 8MHz (no xtal / ceramic resonator)
 - modified bootloader
 
