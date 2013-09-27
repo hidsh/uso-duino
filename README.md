@@ -4,24 +4,24 @@ Uso-duino - a tiny Arduino clone
 ![photo](doc/photo.jpg)
 ![schematic](doc/uso_sch.jpg)
 
-## features
+## Features
 
 - device: ATMEGA168
 - internal osc 8MHz (no xtal / ceramic resonator)
 - modified bootloader
 
-## fuses
+## Fuses
 
     low:     0xf8
     high:    0xdd
     extended:0xe2
 
-## bootloader
+## Bootloader
 
 write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-programmer or avr-dragon.
 
 
-## board setting
+## Board setting
 
 open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add following lines
 
