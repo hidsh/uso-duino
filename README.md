@@ -1,6 +1,9 @@
 USO-duino - a tiny Arduino clone
 ===============
 
+![photo](doc/photo.jpg)
+![schematic](doc/uso_sch.jpg)
+
 # features
 
 - device: ATMEGA168P
