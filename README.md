@@ -20,9 +20,7 @@ write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-
 
 # board setting
 
-Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt
-
-add following lines
+open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add following lines
 
     ##############################################################
     diecimila.name=Arduino Diecimila, Duemilanove, or Nano w/ ATmega168 8MHz
