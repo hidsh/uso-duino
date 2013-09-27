@@ -132,6 +132,11 @@ diecimila: CFLAGS += '-DMAX_TIME_COUNT=F_CPU>>4' '-DNUM_LED_FLASHES=1'
 diecimila: AVR_FREQ = 16000000L 
 diecimila: $(PROGRAM)_diecimila.hex
 
+diecimila_8mhz: TARGET = diecimila
+diecimila_8mhz: CFLAGS += '-DMAX_TIME_COUNT=F_CPU>>4' '-DNUM_LED_FLASHES=1'
+diecimila_8mhz: AVR_FREQ = 8000000L 
+diecimila_8mhz: $(PROGRAM)_diecimila_8mhz.hex
+
 diecimila_isp: diecimila
 diecimila_isp: TARGET = diecimila
 diecimila_isp: HFUSE = DD
@@ -221,4 +226,4 @@ clean:
 
 %.bin: %.elf
 	$(OBJCOPY) -j .text -j .data -O binary $< $@
-	
+

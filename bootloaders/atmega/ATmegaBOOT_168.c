@@ -79,6 +79,15 @@
 #include <avr/eeprom.h>
 #endif
 
+/* Check for aliases. */
+#if	!defined(EEWE) && defined(EEPE)
+# define EEWE EEPE
+#endif
+
+#if	!defined(EEMWE) && defined(EEMPE)
+# define EEMWE EEMPE
+#endif
+
 /* Use the F_CPU defined in Makefile */
 
 /* 20060803: hacked by DojoCorp */
