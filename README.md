@@ -52,9 +52,10 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
 
 ## How to write firmware
 
-1. Push 'UPLOAD' button on IDE with pressing 'RESET' on うそ-duino
-2. Release 'RESET' button
-3. New firmware is started running when you get message 'Done uploading.' on IDE
+1. Press 'RESET' on うそ-duino
+1. Push 'UPLOAD' button on IDE
+1. Release 'RESET' button on うそ-duino
+1. New firmware is started running when you get message 'Done uploading.' on IDE
 
 ## Thanks to
 
