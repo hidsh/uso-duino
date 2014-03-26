@@ -49,7 +49,7 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
 You can download Arduino IDE from [here](http://arduino.cc/en/Guide/HomePage).
 
 - Tools / board: Arduino Diecimila, Duemilanove, or Nano w/ ATmega168 8MHz
-- Tools / Serial Port: /dev/tty.usbserial-XXX
+- Tools / Serial Port: e.g. `/dev/tty.usbserial-XXX` on Mac
 - Tools / Programmer: AVRISP mkII
 
 ## How to upload sketch
