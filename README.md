@@ -46,16 +46,20 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
 
 ## IDE setting
 
+You can download Arduino IDE from [here](http://arduino.cc/en/Guide/HomePage).
+
 - Tools / board: Arduino Diecimila, Duemilanove, or Nano w/ ATmega168 8MHz
 - Tools / Serial Port: /dev/tty.usbserial-XXX
 - Tools / Programmer: AVRISP mkII
 
-## How to write firmware
+## How to upload sketch
+
+Sample sketch is [here](https://github.com/gnrr/uso-duino/blob/master/doc/sample_led0.ino).
 
 1. Press 'RESET' SW on うそ-duino
 1. Push 'UPLOAD' button on IDE
 1. Release 'RESET' SW on うそ-duino
-1. New firmware is started running when you get message 'Done uploading.' on IDE
+1. New sketch is started running when you get message 'Done uploading.' on IDE
 
 ## Thanks to
 
