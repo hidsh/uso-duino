@@ -7,7 +7,7 @@ Uso-duino - a tiny Arduino clone
 ## Features
 
 - device: ATMEGA168
-- internal osc 8MHz (no xtal / ceramic resonator)
+- internal osc 8MHz (w/o external clock)
 - modified bootloader
 
 ## Fuses
@@ -18,7 +18,7 @@ Uso-duino - a tiny Arduino clone
 
 ## Bootloader
 
-write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-programmer or avr-dragon.
+You may write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-programmer or avr-dragon, if your ATMEGA168 don't have this modified bootloader.
 
 
 ## Board setting
@@ -59,7 +59,7 @@ Sample sketch is [here](https://github.com/gnrr/uso-duino/blob/master/doc/sample
 1. Press 'RESET' SW on うそ-duino
 1. Push 'UPLOAD' button on IDE
 1. Release 'RESET' SW on うそ-duino
-1. New sketch is started running when you get message 'Done uploading.' on IDE
+1. Now, new sketch will be started when you get message `Done uploading.` on IDE
 
 ## Thanks to
 
