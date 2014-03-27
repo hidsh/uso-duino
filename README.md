@@ -7,7 +7,7 @@ Uso-duino - a tiny Arduino clone
 ## Features
 
 - device: ATMEGA168
-- internal osc 8MHz (w/o external clock)
+- internal osc 8MHz (w/o any external clock)
 - modified bootloader
 
 ## Fuses
