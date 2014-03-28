@@ -21,7 +21,19 @@ Uso-duino - a tiny Arduino clone
 You may write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-programmer or avr-dragon, if your ATMEGA168 don't have this modified bootloader.
 
 
-## Board setting
+## Prerequisites
+
+### Serial port driver
+
+Before everything, You have to get it properly if you have never installed serial port driver into your PC (e.g. [FTDI](http://www.ftdichip.com/Drivers/VCP.htm)). 
+
+### Arduino IDE
+
+You can download Arduino IDE from [here](http://arduino.cc/en/Guide/HomePage).
+
+## IDE Setting
+
+### Board configuration
 
 open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add following lines
 
@@ -44,11 +56,8 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
     diecimila.build.f_cpu=8000000L
     diecimila.build.core=arduino
 
-## IDE setting
 
-Before everything, You have to get it properly if you have never installed serial port driver into your PC (e.g. [FTDI](http://www.ftdichip.com/Drivers/VCP.htm)). 
-
-You can download Arduino IDE from [here](http://arduino.cc/en/Guide/HomePage).
+### general setting
 
 - Tools / board: Arduino Diecimila, Duemilanove, or Nano w/ ATmega168 8MHz
 - Tools / Serial Port: e.g. `/dev/tty.usbserial-XXX` on Mac
