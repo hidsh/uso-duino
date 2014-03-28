@@ -10,15 +10,17 @@ Uso-duino - a tiny Arduino clone
 - internal osc 8MHz (w/o any external clock)
 - modified bootloader
 
-## Fuses
+## MCU as Arduino
+
+### Fuses
 
     low:     0xf8
     high:    0xdd
     extended:0xe2
 
-## Bootloader
+### Bootloader
 
-You may write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-programmer or avr-dragon, if your ATMEGA168 don't have this modified bootloader.
+You have to write `bootloaders/atmega/ATmegaBOOT_168_diecimila_8mhz.hex` to flash using isp-programmer or avr-dragon.
 
 
 ## Prerequisites
@@ -31,7 +33,7 @@ Before everything, You have to get it properly if you have never installed seria
 
 You can download Arduino IDE from [here](http://arduino.cc/en/Guide/HomePage).
 
-## IDE Setting
+## IDE Settings
 
 ### Board configuration
 
@@ -57,7 +59,7 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
     diecimila.build.core=arduino
 
 
-### general setting
+### general settings
 
 - Tools / board: Arduino Diecimila, Duemilanove, or Nano w/ ATmega168 8MHz
 - Tools / Serial Port: e.g. `/dev/tty.usbserial-XXX` on Mac
