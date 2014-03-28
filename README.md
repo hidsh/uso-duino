@@ -46,6 +46,8 @@ open `Arduino.app/Contents/Resources/Java/hardware/arduino/boards.txt`, then add
 
 ## IDE setting
 
+Before everything, You have to get it properly if you have never installed serial port driver into your PC (e.g. [FTDI](http://www.ftdichip.com/Drivers/VCP.htm)). 
+
 You can download Arduino IDE from [here](http://arduino.cc/en/Guide/HomePage).
 
 - Tools / board: Arduino Diecimila, Duemilanove, or Nano w/ ATmega168 8MHz
