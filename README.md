@@ -14,9 +14,9 @@ Uso-duino - a tiny Arduino clone
 
 ### Fuses
 
-    low:     0xf8
-    high:    0xdd
     extended:0xe2
+    high:    0xdd
+    low:     0xf8
 
 ### Bootloader
 
